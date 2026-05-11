@@ -1,0 +1,972 @@
+
+============================================================
+	CORPUS: dracula-UTF8.txt
+============================================================
+
+	 Top 10 Nomi Propri di Persona
+		 1. Van Helsing               (305 occorrenze)
+		 2. Lucy                      (186 occorrenze)
+		 3. Jonathan                  (144 occorrenze)
+		 4. Arthur                    (109 occorrenze)
+		 5. Madam Mina                (91 occorrenze)
+		 6. Harker                    (88 occorrenze)
+		 7. Seward                    (85 occorrenze)
+		 8. John                      (65 occorrenze)
+		 9. Quincey                   (48 occorrenze)
+		10. Lord Godalming            (48 occorrenze)
+
+	 Profili Per-Persona
+
+		 - Arthur (142 frasi)
+	
+		 - Luoghi più frequenti:
+			Arthur                    (23)
+			Telegram                  (2)
+			Lucy                      (2)
+			Quincey                   (2)
+			Letter                    (1)
+			Thank                     (1)
+			Jack                      (1)
+			Holland                   (1)
+			America                   (1)
+			Scotland                  (1)
+
+		 - Persone co-occorrenti:
+			Van Helsing               (17)
+			Lucy                      (10)
+			Quincey                   (9)
+			Arthur Holmwood           (6)
+			Quincey Morris            (4)
+			Seward                    (2)
+			John                      (2)
+			Mr. Morris                (1)
+			Quincey P. Morris         (1)
+			Somehow                   (1)
+
+		 - Sostantivi più frequenti:
+			face                      (12)
+			friend                    (12)
+			way                       (8)
+			hand                      (8)
+			hands                     (7)
+			room                      (7)
+			night                     (7)
+			father                    (6)
+			time                      (6)
+			man                       (5)
+
+		 - Date trovate:
+			29 September
+		 - Mesi trovati:
+			May, September
+		 - Giorni della settimana trovati:
+			Sunday
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"This time the question was by Arthur ."
+			P = 3.13e-21
+	──────────────────────────────────────────────────
+
+		 - Harker (146 frasi)
+	
+		 - Luoghi più frequenti:
+			Mina                      (13)
+			Harker                    (9)
+			Letter                    (7)
+			Dracula                   (1)
+			St. Joseph                (1)
+			Jonathan                  (1)
+			Telegram                  (1)
+			London                    (1)
+			No                        (1)
+			Quincey                   (1)
+
+		 - Persone co-occorrenti:
+			Van Helsing               (15)
+			Jonathan Harker           (10)
+			Jonathan                  (8)
+			Madam Mina                (5)
+			Mina Harker               (5)
+			Lucy Westenra             (4)
+			Mr. Harker                (3)
+			Quincey                   (3)
+			Morris                    (2)
+			Seward                    (2)
+
+		 - Sostantivi più frequenti:
+			Harker                    (31)
+			Journal                   (21)
+			time                      (15)
+			room                      (7)
+			hand                      (6)
+			house                     (5)
+			door                      (5)
+			face                      (5)
+			hands                     (5)
+			morning                   (5)
+
+		 - Date trovate:
+			11 October
+			29 September
+			30 September
+		 - Mesi trovati:
+			May, October, September
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"Letter , Van Helsing to Mrs. Harker ."
+			P = 4.59e-21
+	──────────────────────────────────────────────────
+
+		 - John (73 frasi)
+	
+		 - Luoghi più frequenti:
+			London                    (2)
+			Greenland                 (1)
+			Finland                   (1)
+			Haarlem                   (1)
+			Whitby                    (1)
+			Purfleet                  (1)
+
+		 - Persone co-occorrenti:
+			John Seward               (6)
+			Madam Mina                (6)
+			Arthur                    (3)
+			Van Helsing               (3)
+			Quincey                   (3)
+			Andrew Woodhouse          (1)
+			John Paxton               (1)
+			Cape Farewell             (1)
+			John Rawlings             (1)
+			Till                      (1)
+
+		 - Sostantivi più frequenti:
+			friend                    (39)
+			Friend                    (14)
+			hand                      (6)
+			world                     (4)
+			way                       (4)
+			man                       (3)
+			blood                     (3)
+			Ah                        (3)
+			work                      (3)
+			shoulder                  (3)
+
+		 - Date trovate:
+			20 September
+			4 November
+		 - Mesi trovati:
+			May, November, September
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"Friend John , help to me ! ''"
+			P = 8.76e-21
+	──────────────────────────────────────────────────
+
+		 - Jonathan (186 frasi)
+	
+		 - Luoghi più frequenti:
+			Jonathan                  (32)
+			London                    (3)
+			Transylvania              (2)
+			Whitby                    (2)
+			Dracula                   (2)
+			St. Joseph                (1)
+			Harker                    (1)
+			Count                     (1)
+			Poor                      (1)
+			Husband                   (1)
+
+		 - Persone co-occorrenti:
+			Jonathan Harker           (10)
+			Harker                    (9)
+			Lucy                      (7)
+			Van Helsing               (7)
+			Mr. Hawkins               (6)
+			Madam Mina                (4)
+			Seward                    (4)
+			Mr. Morris                (3)
+			Lord Godalming            (3)
+			Mr. Jonathan              (2)
+
+		 - Sostantivi più frequenti:
+			time                      (13)
+			way                       (11)
+			friend                    (10)
+			day                       (9)
+			Journal                   (9)
+			hand                      (7)
+			diary                     (7)
+			fear                      (7)
+			side                      (6)
+			man                       (6)
+
+		 - Date trovate:
+			1 October
+			11 October
+			23 September
+			24 September
+			25 September
+			27 July
+			29 September
+			3 August
+			6 November
+		 - Mesi trovati:
+			August, July, May, November, October, September
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"Jonathan , you must not leave me ."
+			P = 6.00e-19
+	──────────────────────────────────────────────────
+
+		 - Lord Godalming (66 frasi)
+	
+		 - Luoghi più frequenti:
+			London                    (3)
+			Texas                     (1)
+			Windham                   (1)
+			Harker                    (1)
+			Letter                    (1)
+			Candy                     (1)
+			Carfax                    (1)
+			Piccadilly                (1)
+			Morris                    (1)
+			East                      (1)
+
+		 - Persone co-occorrenti:
+			Mr. Morris                (9)
+			Van Helsing               (6)
+			Seward                    (5)
+			Jonathan                  (5)
+			Quincey                   (4)
+			Quincey Morris            (3)
+			Mr. Quincey Morris        (2)
+			John                      (2)
+			Lloyd                     (2)
+			Czarina Catherine         (2)
+
+		 - Sostantivi più frequenti:
+			Godalming                 (29)
+			door                      (5)
+			Lord                      (4)
+			duty                      (4)
+			man                       (4)
+			Professor                 (4)
+			moment                    (4)
+			steam                     (4)
+			friend                    (3)
+			time                      (3)
+
+		 - Date trovate:
+			(nessuna data trovata)
+		 - Mesi trovati:
+			(nessun mese trovato)
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"This query was directly addressed to Lord Godalming ."
+			P = 2.11e-30
+	──────────────────────────────────────────────────
+
+		 - Lucy (290 frasi)
+	
+		 - Luoghi più frequenti:
+			Lucy                      (37)
+			Letter                    (5)
+			London                    (3)
+			Poor                      (2)
+			Jonathan                  (2)
+			Miss Lucy                 (2)
+			Arthur                    (2)
+			Whitby                    (2)
+			Thank                     (1)
+			Ah                        (1)
+
+		 - Persone co-occorrenti:
+			Van Helsing               (23)
+			Miss Lucy                 (15)
+			Lucy Westenra             (12)
+			Arthur                    (11)
+			Jonathan                  (6)
+			Mina Harker               (4)
+			Seward                    (4)
+			Mina Murray               (3)
+			John                      (3)
+			Arthur Holmwood           (2)
+
+		 - Sostantivi più frequenti:
+			Lucy                      (29)
+			night                     (22)
+			face                      (20)
+			room                      (19)
+			time                      (16)
+			friend                    (13)
+			day                       (12)
+			death                     (11)
+			Westenra                  (10)
+			eyes                      (10)
+
+		 - Date trovate:
+			1 August
+			12 August
+			17 September
+			24 August
+			25 September
+			7 September
+			8 August
+			8 September
+		 - Mesi trovati:
+			August, July, May, September
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"I called in fright , `` Lucy !"
+			P = 6.20e-21
+	──────────────────────────────────────────────────
+
+		 - Madam Mina (83 frasi)
+	
+		 - Luoghi più frequenti:
+			Mina                      (3)
+			Whitby                    (1)
+			Danube                    (1)
+
+		 - Persone co-occorrenti:
+			John                      (6)
+			Van Helsing               (4)
+			Jonathan                  (3)
+			Harker                    (2)
+			Quincey                   (2)
+			God                       (2)
+
+		 - Sostantivi più frequenti:
+			friend                    (8)
+			others                    (5)
+			husband                   (4)
+			time                      (4)
+			heart                     (4)
+			things                    (3)
+			day                       (3)
+			diary                     (3)
+			round                     (3)
+			window                    (3)
+
+		 - Date trovate:
+			(nessuna data trovata)
+		 - Mesi trovati:
+			May
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"`` But why , dear Madam Mina ?"
+			P = 1.60e-22
+	──────────────────────────────────────────────────
+
+		 - Quincey (82 frasi)
+	
+		 - Luoghi più frequenti:
+			Quincey                   (11)
+			Arthur                    (6)
+			Harker                    (2)
+			Morris                    (2)
+			Letter                    (1)
+			Telegram                  (1)
+			Professor                 (1)
+			Whitby                    (1)
+			Texas                     (1)
+			Art                       (1)
+
+		 - Persone co-occorrenti:
+			Quincey Morris            (16)
+			Van Helsing               (10)
+			Arthur                    (10)
+			Lord Godalming            (5)
+			Quincey P. Morris         (3)
+			Morris                    (3)
+			Mr. Quincey Morris        (3)
+			John                      (3)
+			Lucy                      (2)
+			Art                       (2)
+
+		 - Sostantivi più frequenti:
+			Professor                 (5)
+			way                       (5)
+			man                       (5)
+			friend                    (5)
+			Godalming                 (5)
+			whilst                    (4)
+			voice                     (3)
+			Helsing                   (3)
+			face                      (3)
+			hand                      (3)
+
+		 - Date trovate:
+			29 September
+			3 October
+		 - Mesi trovati:
+			May, October, September
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"Letter , Quincey P. Morris to Hon ."
+			P = 8.95e-25
+	──────────────────────────────────────────────────
+
+		 - Seward (112 frasi)
+	
+		 - Luoghi più frequenti:
+			Telegram                  (5)
+			London                    (5)
+			Letter                    (3)
+			Korea                     (1)
+			Holland                   (1)
+			Being                     (1)
+			Seward                    (1)
+			Hapgood                   (1)
+			Purfleet                  (1)
+
+		 - Persone co-occorrenti:
+			Van Helsing               (17)
+			Mr. Morris                (9)
+			John Seward               (6)
+			Lord Godalming            (4)
+			Jack Seward               (3)
+			Arthur Holmwood           (3)
+			Amsterdam                 (3)
+			Lucy                      (3)
+			Jonathan                  (3)
+			Renfield                  (3)
+
+		 - Sostantivi più frequenti:
+			Diary                     (26)
+			Seward                    (17)
+			room                      (7)
+			friend                    (6)
+			time                      (5)
+			something                 (5)
+			Godalming                 (4)
+			study                     (4)
+			diary                     (4)
+			door                      (4)
+
+		 - Date trovate:
+			2 September
+			20 September
+			29 September
+			30 October
+			30 September
+			4 November
+		 - Mesi trovati:
+			May, November, October, September
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"Letter , Arthur Holmwood to Dr. Seward ."
+			P = 1.65e-22
+	──────────────────────────────────────────────────
+
+		 - Van Helsing (314 frasi)
+	
+		 - Luoghi più frequenti:
+			Mina                      (7)
+			Telegram                  (5)
+			London                    (4)
+			Lucy                      (4)
+			Arthur                    (3)
+			Letter                    (3)
+			Amsterdam                 (2)
+			D                         (1)
+			Amongst                   (1)
+			Holland                   (1)
+
+		 - Persone co-occorrenti:
+			Arthur                    (16)
+			Lucy                      (15)
+			Seward                    (13)
+			Jonathan                  (7)
+			Quincey                   (5)
+			Harker                    (5)
+			Madam Mina                (5)
+			Professor Van Helsing     (4)
+			Abraham Van Helsing       (3)
+			Amsterdam                 (3)
+
+		 - Sostantivi più frequenti:
+			Helsing                   (62)
+			room                      (18)
+			time                      (18)
+			hand                      (17)
+			face                      (14)
+			eyes                      (10)
+			head                      (10)
+			way                       (9)
+			Harker                    (9)
+			blood                     (8)
+
+		 - Date trovate:
+			13 September
+			25 September
+			29 September
+			30 October
+			4 October
+			5 November
+			7 September
+		 - Mesi trovati:
+			May, November, October, September
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"Van Helsing was very kind to him ."
+			P = 5.73e-20
+	──────────────────────────────────────────────────
+
+
+============================================================
+	CORPUS: hydeandjack-UTF8.txt
+============================================================
+
+	 Top 10 Nomi Propri di Persona
+		 1. Mr. Utterson              (76 occorrenze)
+		 2. Utterson                  (59 occorrenze)
+		 3. Poole                     (46 occorrenze)
+		 4. Jekyll                    (36 occorrenze)
+		 5. Henry Jekyll              (27 occorrenze)
+		 6. Mr. Hyde                  (26 occorrenze)
+		 7. Edward Hyde               (25 occorrenze)
+		 8. Hyde                      (25 occorrenze)
+		 9. Lanyon                    (14 occorrenze)
+		10. Mr. Enfield               (10 occorrenze)
+
+	 Profili Per-Persona
+
+		 - Edward Hyde (23 frasi)
+	
+		 - Luoghi più frequenti:
+			Soho                      (2)
+			D.C.L.                    (1)
+			F.R.S.                    (1)
+
+		 - Persone co-occorrenti:
+			Henry Jekyll              (7)
+			Jekyll                    (2)
+			Mr. Utterson              (1)
+			Gabriel John Utterson     (1)
+
+		 - Sostantivi più frequenti:
+			case                      (4)
+			name                      (4)
+			hand                      (3)
+			room                      (3)
+			body                      (3)
+			vain                      (3)
+			hands                     (2)
+			benefactor                (2)
+			disappearance             (2)
+			months                    (2)
+
+		 - Date trovate:
+			(nessuna data trovata)
+		 - Mesi trovati:
+			(nessun mese trovato)
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"It was the hand of Edward Hyde ."
+			P = 5.69e-18
+	──────────────────────────────────────────────────
+
+		 - Henry Jekyll (26 frasi)
+	
+		 - Luoghi più frequenti:
+			D.C.L.                    (1)
+			F.R.S.                    (1)
+			Lanyon                    (1)
+			Hyde                      (1)
+
+		 - Persone co-occorrenti:
+			Edward Hyde               (7)
+			Mr. Utterson              (3)
+			Utterson                  (3)
+			Jekyll                    (2)
+
+		 - Sostantivi più frequenti:
+			disappearance             (4)
+			hands                     (3)
+			doctor                    (3)
+			name                      (3)
+			man                       (3)
+			hand                      (3)
+			colleague                 (3)
+			God                       (3)
+			case                      (2)
+			friends                   (2)
+
+		 - Date trovate:
+			(nessuna data trovata)
+		 - Mesi trovati:
+			January, May
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			(nessuna frase trovata nel range 8-12 token)
+	──────────────────────────────────────────────────
+
+		 - Hyde (94 frasi)
+	
+		 - Luoghi più frequenti:
+			Hyde                      (14)
+			Soho                      (4)
+			Jekyll                    (3)
+			D.C.L.                    (1)
+			F.R.S.                    (1)
+			Poole                     (1)
+			Carew                     (1)
+
+		 - Persone co-occorrenti:
+			Mr. Hyde                  (26)
+			Edward Hyde               (25)
+			Jekyll                    (13)
+			Mr. Utterson              (12)
+			Henry Jekyll              (8)
+			Utterson                  (8)
+			Poole                     (2)
+			Sir Danvers               (2)
+			Strange Case              (1)
+			Lanyon                    (1)
+
+		 - Sostantivi più frequenti:
+			man                       (10)
+			name                      (8)
+			house                     (8)
+			lawyer                    (7)
+			doctor                    (6)
+			face                      (5)
+			life                      (5)
+			something                 (5)
+			moment                    (5)
+			creature                  (5)
+
+		 - Date trovate:
+			(nessuna data trovata)
+		 - Mesi trovati:
+			May
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"It was the hand of Edward Hyde ."
+			P = 5.69e-18
+	──────────────────────────────────────────────────
+
+		 - Jekyll (90 frasi)
+	
+		 - Luoghi più frequenti:
+			Jekyll                    (13)
+			Hyde                      (4)
+			Lanyon                    (2)
+			D.C.L.                    (1)
+			F.R.S.                    (1)
+			Ay                        (1)
+			Carew                     (1)
+
+		 - Persone co-occorrenti:
+			Henry Jekyll              (27)
+			Utterson                  (13)
+			Edward Hyde               (9)
+			Hyde                      (8)
+			Mr. Utterson              (7)
+			Poole                     (3)
+			Mr. Hyde                  (2)
+			God                       (2)
+			Strange Case              (1)
+			Will                      (1)
+
+		 - Sostantivi più frequenti:
+			Jekyll                    (16)
+			name                      (7)
+			hand                      (7)
+			man                       (6)
+			home                      (5)
+			house                     (5)
+			lawyer                    (4)
+			hands                     (4)
+			friend                    (4)
+			disappearance             (4)
+
+		 - Date trovate:
+			(nessuna data trovata)
+		 - Mesi trovati:
+			January, May
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"Jekyll presents his compliments to Messrs. Maw ."
+			P = 7.73e-26
+	──────────────────────────────────────────────────
+
+		 - Lanyon (28 frasi)
+	
+		 - Luoghi più frequenti:
+			Lanyon                    (10)
+			Cavendish Square          (1)
+			Guest                     (1)
+			Jekyll                    (1)
+			Serve                     (1)
+			Poole                     (1)
+
+		 - Persone co-occorrenti:
+			Utterson                  (5)
+			Henry Jekyll              (1)
+			Hyde                      (1)
+			God                       (1)
+
+		 - Sostantivi più frequenti:
+			friends                   (5)
+			friend                    (4)
+			Lanyon                    (4)
+			house                     (3)
+			man                       (3)
+			hand                      (3)
+			topic                     (2)
+			doctor                    (2)
+			face                      (2)
+			days                      (2)
+
+		 - Date trovate:
+			8th of January
+		 - Mesi trovati:
+			January, May
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"Written by the hand of Lanyon , what should it mean ?"
+			P = 2.15e-31
+	──────────────────────────────────────────────────
+
+		 - Mr. Enfield (11 frasi)
+	
+		 - Luoghi più frequenti:
+			(nessun luogo trovato)
+
+		 - Persone co-occorrenti:
+			Mr. Utterson              (4)
+			Utterson                  (1)
+
+		 - Sostantivi più frequenti:
+			place                     (4)
+			way                       (3)
+			lawyer                    (2)
+			side                      (2)
+			by-street                 (2)
+			door                      (2)
+			mind                      (2)
+			Well                      (2)
+			abreast                   (1)
+			entry                     (1)
+
+		 - Date trovate:
+			(nessuna data trovata)
+		 - Mesi trovati:
+			(nessun mese trovato)
+		 - Giorni della settimana trovati:
+			Sunday
+
+		 - Frase Markov (8-12 token, prob. massima):
+			(nessuna frase trovata nel range 8-12 token)
+	──────────────────────────────────────────────────
+
+		 - Mr. Hyde (30 frasi)
+	
+		 - Luoghi più frequenti:
+			Hyde                      (1)
+			Soho                      (1)
+			Poole                     (1)
+
+		 - Persone co-occorrenti:
+			Mr. Utterson              (9)
+			Utterson                  (3)
+			Hyde                      (2)
+			Sir Danvers               (2)
+			Strange Case              (1)
+			Gaunt                     (1)
+			Poole                     (1)
+			Guest                     (1)
+			Time                      (1)
+			Bradshaw                  (1)
+
+		 - Sostantivi più frequenti:
+			lawyer                    (6)
+			man                       (4)
+			house                     (4)
+			smile                     (2)
+			face                      (2)
+			home                      (2)
+			air                       (2)
+			Yes                       (2)
+			rest                      (2)
+			master                    (2)
+
+		 - Date trovate:
+			(nessuna data trovata)
+		 - Mesi trovati:
+			May
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			(nessuna frase trovata nel range 8-12 token)
+	──────────────────────────────────────────────────
+
+		 - Mr. Utterson (69 frasi)
+	
+		 - Luoghi più frequenti:
+			Poole                     (2)
+			D.C.L.                    (1)
+			F.R.S.                    (1)
+			Hyde                      (1)
+			Soho                      (1)
+			London                    (1)
+			God                       (1)
+			Heaven                    (1)
+
+		 - Persone co-occorrenti:
+			Poole                     (6)
+			Utterson                  (5)
+			Henry Jekyll              (4)
+			Mr. Enfield               (3)
+			Jekyll                    (3)
+			Edward Hyde               (2)
+			Mr. Hyde                  (2)
+			Strange Case              (1)
+			Enfield                   (1)
+			Richard.                  (1)
+
+		 - Sostantivi più frequenti:
+			man                       (12)
+			door                      (8)
+			lawyer                    (7)
+			doctor                    (7)
+			way                       (6)
+			house                     (6)
+			name                      (5)
+			time                      (5)
+			voice                     (4)
+			hands                     (4)
+
+		 - Date trovate:
+			(nessuna data trovata)
+		 - Mesi trovati:
+			May
+		 - Giorni della settimana trovati:
+			Sunday
+
+		 - Frase Markov (8-12 token, prob. massima):
+			(nessuna frase trovata nel range 8-12 token)
+	──────────────────────────────────────────────────
+
+		 - Poole (59 frasi)
+	
+		 - Luoghi più frequenti:
+			Poole                     (11)
+			Hyde                      (1)
+			God                       (1)
+			Heaven                    (1)
+			Lanyon                    (1)
+
+		 - Persone co-occorrenti:
+			Mr. Utterson              (10)
+			Jekyll                    (2)
+			Mr. Hyde                  (2)
+			Guest                     (1)
+			Utterson                  (1)
+			God                       (1)
+			London                    (1)
+
+		 - Sostantivi più frequenti:
+			lawyer                    (12)
+			sir                       (11)
+			master                    (7)
+			door                      (6)
+			house                     (5)
+			man                       (5)
+			way                       (5)
+			doctor                    (5)
+			note                      (4)
+			candle                    (4)
+
+		 - Date trovate:
+			(nessuna data trovata)
+		 - Mesi trovati:
+			May
+		 - Giorni della settimana trovati:
+			(nessun giorno trovato)
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"Poole stamped on the flags of the corridor ."
+			P = 1.22e-23
+	──────────────────────────────────────────────────
+
+		 - Utterson (126 frasi)
+	
+		 - Luoghi più frequenti:
+			Utterson                  (4)
+			London                    (2)
+			God                       (2)
+			Poole                     (2)
+			D.C.L.                    (1)
+			F.R.S.                    (1)
+			Hyde                      (1)
+			Soho                      (1)
+			Jekyll                    (1)
+			Lanyon                    (1)
+
+		 - Persone co-occorrenti:
+			Mr. Utterson              (73)
+			Jekyll                    (7)
+			Henry Jekyll              (6)
+			Poole                     (6)
+			Mr. Enfield               (4)
+			Mr. Hyde                  (4)
+			Edward Hyde               (3)
+			Hyde                      (3)
+			Lanyon                    (3)
+			God                       (3)
+
+		 - Sostantivi più frequenti:
+			man                       (20)
+			doctor                    (18)
+			lawyer                    (13)
+			door                      (11)
+			hands                     (10)
+			name                      (9)
+			house                     (7)
+			sir                       (7)
+			hand                      (7)
+			God                       (7)
+
+		 - Date trovate:
+			8th of January
+		 - Mesi trovati:
+			January, May
+		 - Giorni della settimana trovati:
+			Sunday
+
+		 - Frase Markov (8-12 token, prob. massima):
+			"“ I knew it , ” said Utterson ."
+			P = 5.89e-19
+	──────────────────────────────────────────────────
