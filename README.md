@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📊 Statistical NLP Analysis
+# Statistical NLP Analysis
 
 **A modular, SOLID-compliant Python pipeline for deep statistical and semantic analysis of English literary corpora.**
 
@@ -19,7 +19,6 @@
 - [Features](#features)
   - [Program 1 — Statistical & Linguistic Analysis](#program-1--statistical--linguistic-analysis)
   - [Program 2 — Named Entity Recognition & Profiling](#program-2--named-entity-recognition--profiling)
-- [Architecture](#architecture)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -62,59 +61,6 @@ Builds a deep semantic profile for each major character in the corpus:
 | **Lexical Context** | Top 10 most frequent nouns in each character's sentences, with **spurious noun filtering** (removes smart quotes, abbreviations, single-character artifacts) |
 | **Temporal Extraction** | Dates, months, and weekdays extracted via targeted regular expressions |
 | **Markov Modelling** | Highest-probability sentence (8–12 tokens) per character, computed with a configurable **k-order Markov model** (defaults to zero-order unigram) |
-
----
-
-## Architecture
-
-The project follows **SOLID principles** through a layered, modular design where each component is independently testable and replaceable.
-
-### Pipeline Flow
-
-```
-                    ┌─────────────────────────┐
-                    │      Raw .txt files      │
-                    └────────────┬────────────┘
-                                │
-                    ┌────────────▼────────────┐
-                    │    CleaningPipeline      │
-                    │  BOM → Formatting →      │
-                    │  Sections → Headers →    │
-                    │  Whitespace              │
-                    └────────────┬────────────┘
-                                │
-                    ┌────────────▼────────────┐
-                    │     Corpora (Model)      │
-                    │  Sentences → Tokens      │
-                    │  Cached: pos_tags,       │
-                    │  token_freq, flat_tokens │
-                    └────────────┬────────────┘
-                                │
-              ┌─────────────────┼─────────────────┐
-              │                                   │
-   ┌──────────▼──────────┐             ┌──────────▼──────────┐
-   │  AnalysisPipeline   │             │  AnalysisPipeline   │
-   │    (Program 1)      │             │    (Program 2)      │
-   │                     │             │                     │
-   │  • BaseStatistics   │             │  • NERAnalyzer      │
-   │  • HapaxAnalyzer    │             │  • PersonProfile    │
-   │  • POSAnalyzer      │             │    (deferred)       │
-   │  • NgramAnalyzer    │             │  • MarkovModel      │
-   │    + POSExtractor   │             │                     │
-   │    + Scorers        │             │                     │
-   └──────────┬──────────┘             └──────────┬──────────┘
-              │                                   │
-   ┌──────────▼──────────┐             ┌──────────▼──────────┐
-   │  first_program_     │             │  second_program_    │
-   │  formatter          │             │  formatter          │
-   └──────────┬──────────┘             └──────────┬──────────┘
-              │                                   │
-              └─────────────┬─────────────────────┘
-                            │
-                ┌───────────▼───────────┐
-                │   text/output/*.txt   │
-                └───────────────────────┘
-```
 
 ---
 
@@ -258,33 +204,46 @@ PersonProfileAnalyzer(..., min_tokens=5, max_tokens=15)
 ============================================================
 
 Statistiche di Base
-    Frasi totali:           8525
-    Token totali:           188621
-    Lunghezza media frasi:  22.13
-    Lunghezza media parole: 3.57
+	Frasi totali:	8525
+	Token totali:	188621
+	Lunghezza media frasi (token):	22.13
+	Lunghezza media parole (char):	3.57
+
+Vocabolario e Distribuzione Hapax
+	Grandezza vocabolario totale:	10395
+	  Porzione	 Vocabolario	   Hapax	  Rapporto
+	──────────	────────────	────────	──────────
+	     1,000	         415	     291	    0.2910
+	     2,000	         677	     447	    0.2235
+	     3,000	         914	     598	    0.1993
+...
 
 Analisi Part-of-Speech
-    Sostantivi: 30886
-    Verbi:      30758
-    Rapporto N/V: 1.004
-
-    Top 10 PoS:
-        NN    20,268
-        IN    19,942
-        PRP   17,736
-        DT    14,758
-        ...
+	Sostantivi:	30886
+	Verbi:	30758
+	Rapporto N/V:	1.0041615189544184
+	Top 10 PoS:
+		    NN	  20,268
+		    IN	  19,942
+		   PRP	  17,736
+...
 
 Bigrammi di PoS
-    Top 10 per Probabilità Condizionata:
-        ('$', 'CD')       P = 1.000000
-        ('PDT', 'DT')     P = 0.906355
-        ...
+	Unità:	pos | Ordine:	2
+	Bigrammi totali:	188,620
+	Bigrammi unici:	1,095
 
-    Top 10 per Local Mutual Information:
-        ('DT', 'NN')      LMI = 17170.8851
-        ('PRP', 'VBD')    LMI = 13274.6187
-        ...
+	Top 10 per Probabilità Condizionata:
+		('$', 'CD')                   	P = 1.000000
+		('PDT', 'DT')                 	P = 0.906355
+		('UH', ',')                   	P = 0.721154
+...
+
+	Top 10 per Local Mutual Information:
+		('DT', 'NN')                  	LMI = 17170.8851
+		('PRP', 'VBD')                	LMI = 13274.6187
+		('IN', 'DT')                  	LMI = 12138.6481
+...
 ```
 
 </details>
@@ -297,27 +256,25 @@ Bigrammi di PoS
   CORPUS: dracula-UTF8.txt
 ============================================================
 
- Top 10 Nomi Propri di Persona
-     1. Van Helsing               (305 occorrenze)
-     2. Lucy                      (186 occorrenze)
-     3. Jonathan                  (144 occorrenze)
-     4. Arthur                    (109 occorrenze)
-     5. Madam Mina                (91 occorrenze)
-     ...
+	 Top 10 Nomi Propri di Persona
+		 1. Van Helsing               (305 occorrenze)
+		 2. Lucy                      (186 occorrenze)
+		 3. Jonathan                  (144 occorrenze)
+...
 
- Profili Per-Persona
+	 Profili Per-Persona
 
-     - Van Helsing (314 frasi)
+		 - Arthur (142 frasi)
+	
+		 - Luoghi più frequenti:
+			Arthur                    (23)
+			Telegram                  (2)
+			Lucy                      (2)
+...
 
-     - Persone co-occorrenti:
-         Arthur                    (16)
-         Lucy                      (15)
-         Seward                    (13)
-         ...
-
-     - Frase Markov (8-12 token, prob. massima):
-         "Van Helsing was very kind to him ."
-         P = 5.73e-20
+		 - Frase Markov (8-12 token, prob. massima):
+			"This time the question was by Arthur ."
+			P = 3.13e-21
 ```
 
 </details>
