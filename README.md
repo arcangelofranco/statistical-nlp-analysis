@@ -23,7 +23,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Sample Output](#sample-output)
-- [License](#license)
 
 ---
 
@@ -280,7 +279,3 @@ Bigrammi di PoS
 </details>
 
 ---
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
