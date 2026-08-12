@@ -7,7 +7,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 ![NLTK](https://img.shields.io/badge/NLTK-Natural%20Language%20Toolkit-154f3c)
 ![Architecture](https://img.shields.io/badge/Architecture-SOLID-blueviolet)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 </div>
 
